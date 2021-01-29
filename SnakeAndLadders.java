@@ -3,6 +3,7 @@ public class SnakeAndLadders{
 	{
 	System.out.println("Welcome To Snake and Ladders");
 	int position=0;
-	System.out.println("Current Player Position :"+position);
+	int diceThrow = (int)(Math.ceil(Math.random()*10)%6)+1;
+	System.out.println("Dice Face :"+diceThrow);
 	}
 }
