@@ -5,7 +5,7 @@ public class SnakeAndLadders {
 	static final int SNAKE=2;
 	static final int PLAYER_1_TURN=1;
 	static final int PLAYER_2_TURN=2;
-
+		
 	private static int returnPositionAfterLadder(int diceThrow,int position,int playerTurn) {
 		position += diceThrow;
 		if(position>100) {
